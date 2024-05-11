@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.left-side img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.right-side{
+    width: 350px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.right-side .login-form img{
+    width: 175px;
+    height: 55px;
+    margin-top: 24px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+.right-side input{
+    margin-top: 5px ;
+    padding: 2px 5px;
+}
+
+.login-form{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    border: 1px solid #D8D8D8;
+}
+.login-form a{
+    text-decoration: none;
+    color: #385185;
+}
+.login-form i{
+    color: #385185;
+}
+.login-form button{
+    margin-top: 8px;
+    background-color: #58ACFA;
+    border-radius: 5px;
+    color: #ffff;
+    border: 0px;
+    padding: 3px 0;
+}
+.line{
+    background-color: #D8D8D8;
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    position: relative;
+}
+.icon{
+    display: flex;
+    justify-content: baseline;
+    justify-content: center;
+    padding-top: 70px;
+    align-items: center;
+    gap: 8px;
+}
+.login-form p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.sign-up{
+    border: 1px solid #D8D8D8;
+    margin-top: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #58ACFA;
+}
+
+.logos{
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+}
+.nav-links a{    
+    list-style-type: none;
+    text-decoration: none;
+    color:  #707070;
+}
+.second-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:  #707070 ;
+}
+.footer{
+    margin-top: 200px;
+    font-size: 13px;
+}
